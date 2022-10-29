@@ -1,0 +1,29 @@
+.photo-grid__list {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0 auto;
+  max-width: 984px;
+}
+
+@media (max-width: 1024px) {
+  .photo-grid__list {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .photo-grid__list {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 320px) {
+  .photo-grid__list {
+    max-width: 288px;
+  }
+}

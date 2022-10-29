@@ -1,0 +1,22 @@
+.intro__paragraph {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  margin: 40px 0 33px 0;
+  max-width: 690px;
+}
+
+@media (max-width: 768px) {
+  .intro__paragraph {
+    margin-bottom: 34px;
+    max-width: 720px;
+  }
+}
+@media (max-width: 320px) {
+  .intro__paragraph {
+    margin-bottom: 34px;
+    max-width: 288px;
+  }
+}

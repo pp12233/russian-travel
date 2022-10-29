@@ -1,0 +1,11 @@
+.cover__background {
+  object-fit: cover;
+  object-position: center;
+  margin: 0 auto;
+  width: 100%;
+  filter: opacity(0.8);
+}
+
+.cover__background:hover {
+  filter: opacity(0.3);
+}
