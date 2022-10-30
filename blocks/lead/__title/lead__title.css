@@ -1,5 +1,4 @@
 .lead__title {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
@@ -8,8 +7,6 @@
   text-align: center;
   margin: 0 auto;
 }
-
-
 
 @media (max-width: 320px) {
   .lead__title {

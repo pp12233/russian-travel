@@ -3,9 +3,10 @@ grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(3, 1fr);
 display: grid;
 margin-top: 92px;
-width: 100%;
+max-width: 1184px;
 box-sizing: border-box;
 gap: 16px;
+overflow: hidden;
 }
 
 @media (max-width: 1024px) {

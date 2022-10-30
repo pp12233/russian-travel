@@ -1,7 +1,6 @@
 .photo-grid__list {
   display: flex;
   flex-direction: column;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
