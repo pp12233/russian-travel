@@ -1,14 +1,12 @@
 .place {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
    "title website"
    "image paragraph";
    column-gap: 40px;
    row-gap: 48px;
    margin-bottom: 80px;
-   overflow-wrap: anywhere;
    box-sizing: border-box;
 }
 
@@ -25,7 +23,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 520px) {
   .place {
     margin-bottom: 50px;
     row-gap: 32px;
@@ -38,6 +36,6 @@
   }
 }
 
-.place:nth-of-type(5) {
+.place:last-of-type {
   margin-bottom: 0;
 }

@@ -1,0 +1,17 @@
+.intro__list {
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  padding: 0;
+  max-width: 690px;
+  list-style-type: none;
+}
+
+@media (max-width: 520px) {
+  .intro__list {
+    max-width: 288px;
+  }
+}

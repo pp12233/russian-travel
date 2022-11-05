@@ -12,22 +12,5 @@
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
   font-family: 'Inter', Arial, sans-serif;
-}
-
-@media (max-width: 1024px) {
-  .page {
-    max-width: 1024px;
-  }
-}
-
-@media (max-width: 768px) {
-  .page {
-    max-width: 768px;
-  }
-}
-
-@media (max-width: 320px) {
-  .page {
-    max-width: 320px;
-  }
+  font-style: normal;
 }

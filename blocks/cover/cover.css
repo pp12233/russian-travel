@@ -8,7 +8,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 520px) {
   .cover {
     padding-top: 66px;
   }

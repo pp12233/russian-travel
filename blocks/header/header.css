@@ -18,7 +18,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 520px) {
   .header {
     margin: 16px 16px 48px 16px;
   }

@@ -8,9 +8,11 @@
   margin: 0 auto;
   max-width: 1184px;
   min-height: 740px;
-  display: block;
+  display: flex;
   position: relative;
   z-index: 1;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .cover__background::before {
@@ -23,6 +25,7 @@
   right: 0;
   bottom: 0;
   z-index: -1;
+  transition: 1s;
 }
 
 .cover__background:hover::before {
@@ -45,9 +48,9 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 520px) {
   .cover__background {
-    max-width: 320px;
+    min-width: 320px;
     min-height: 200px;
   }
 }
