@@ -1,6 +1,7 @@
 .photo-grid__items {
-grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+grid-template-columns: repeat(auto-fit, 284px);
 grid-auto-flow: row;
+grid-auto-rows: 213px;
 display: grid;
 margin-top: 92px;
 margin-bottom: 0;
@@ -10,16 +11,23 @@ gap: 16px;
 justify-content: center;
 padding: 0;
 list-style-type: none;
+grid-template-rows: repeat(auto-fit, 213px);
 }
 
 @media (max-width: 1024px) {
   .photo-grid__items {
+    grid-template-columns: repeat(auto-fit, 300px);
+    grid-template-rows: repeat(auto-fit, 225px);
+    grid-auto-rows: 225px;
     gap: 14px;
   }
 }
 
 @media (max-width: 768px) {
   .photo-grid__items {
+    grid-template-columns: repeat(auto-fit, 352px);
+    grid-template-rows: repeat(auto-fit, 264px);
+    grid-auto-rows: 264px;
     margin-top: 88px;
     gap: 16px;
   }
@@ -27,6 +35,9 @@ list-style-type: none;
 
 @media (max-width: 520px) {
   .photo-grid__items {
+    grid-template-columns: 288px;
+    grid-template-rows: 216px;
+    grid-auto-rows: 216px;
     margin-top: 64px;
     gap: 12px;
   }

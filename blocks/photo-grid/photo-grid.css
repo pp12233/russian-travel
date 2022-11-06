@@ -6,13 +6,13 @@
 
 @media (max-width: 1024px) {
   .photo-grid {
-    max-width: calc(100% - 96px);
+    max-width: 928px;
   }
 }
 
 @media (max-width: 768px) {
   .photo-grid {
-    max-width: calc(100% - 48px);
+    max-width: 720px;
   }
 }
 

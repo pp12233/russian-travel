@@ -5,20 +5,12 @@
   text-align: center;
   margin: 0 auto;
   max-width: 720px;
-  max-height: 200px;
 }
 
-@media (max-width: 768px) {
-  .lead__title {
-    font-size: 12vw;
-  }
-}
-
-@media (max-width: 520px) {
+@media (max-width: 700px) {
   .lead__title {
     font-size: 40px;
     line-height: 44px;
     max-width: 288px;
-    max-height: 88px;
   }
 }

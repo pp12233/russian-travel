@@ -27,7 +27,6 @@
   .place {
     margin-bottom: 50px;
     row-gap: 32px;
-    grid-template-columns: 288px;
     grid-template-areas:
      "title"
      "website"

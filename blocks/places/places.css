@@ -19,7 +19,7 @@
 
 @media (max-width: 520px) {
   .places {
-    max-width: calc(100% - 32px);
+    min-width: 320px;
     padding-top: 64px;
   }
 }
